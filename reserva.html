@@ -1,0 +1,84 @@
+<!Doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reserva - Verde Rúcola</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="icon" href="assets/pizzaLogoBlanco.svg" type="image/x-icon">
+</head>
+<body>
+<header class="header">
+  <h1>VERDE RÚCOLA</h1>
+  <nav class="bottom-nav">
+    <ul>
+      <li><a href="index.html">La pizzería</a></li>
+      <li><a href="menu.html">Menú</a></li>
+      <li><a href="pedido.html">Pedido</a></li>
+      <li><a href="reserva.html" class="active">Reserva</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section class="section-content">
+    <h2>¡Reserva tu mesa!</h2>
+    <form action="#" method="post" class="reservation-form">
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+      </div>
+      <div class="form-group">
+        <label for="dia">Día de la reserva:</label>
+        <input type="date" id="dia" name="dia" required>
+      </div>
+      <div class="form-group">
+        <label for="hora">Hora de la reserva:</label>
+        <input type="time" id="hora" name="hora" required>
+      </div>
+      <div class="form-group">
+        <label for="personas">Número de personas:</label>
+        <input type="number" id="personas" name="personas" min="1" required>
+      </div>
+      <button type="submit">Reservar mesa</button>
+    </form>
+  </section>
+</main>
+<footer class="footer">
+  <h2>VERDE RÚCOLA</h2>
+  <div class="footer-content">
+    <div class="row">
+      <div class="column">
+        <h4>Dirección:</h4>
+        <p>Pl. de Vista Alegre, 12, Poniente Sur, 14004 Córdoba</p>
+      </div>
+      <div class="column">
+        <h4>Teléfono:</h4>
+        <p>674 76 60 22</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <h4>Síguenos en:</h4>
+        <a target="_blank" href="https://www.facebook.com/VerdeRucola/">Facebook</a>
+        <a target="_blank" href="https://www.instagram.com/pizzeriaverderucola/">Instagram</a>
+      </div>
+      <div class="column">
+        <h4>Horario:</h4>
+        <p>Lunes: Cerrado</p>
+        <p>Martes: Cerrado</p>
+        <p>Miércoles: 13-30-15:45, 20:00-23:15</p>
+        <p>Jueves: 13-30-15:45, 20:00-23:15</p>
+        <p>Viernes: 13-30-15:45, 20:00-23:30</p>
+        <p>Sábados: 13-30-16:00, 20:00-23:15</p>
+        <p>Domingos: 13-30-16:00, 20:00-23:30</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -161,15 +161,69 @@ header h1 {
     bottom: 0;
 }
 
-/* Nueva sección con fondo y contenedores */
+/* Estilos para el formulario de reserva */
 .section-content {
     background-color: #e7fe52;
     display: flex;
-    justify-content: center; /* Center columns horizontally */
-    align-items: center; /* Center columns vertically */
-    height: 80vh; /* Occupies 80% of the main height */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Ocupa el 80% de la pantalla */
     padding: 2rem;
 }
+
+.section-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.reservation-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Ocupa el 80% del ancho del contenedor */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.reservation-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.reservation-form label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.reservation-form input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.reservation-form button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reservation-form button:hover {
+    background-color: #333;
+}
+
 
 .section-content .column {
     font-size: 4rem;
@@ -347,25 +401,6 @@ header h1 {
     }
 }
 
-
-/*PEDIDO*/
-.pedido-main {
-    background-color: #e7fe52;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    text-align: center;
-}
-
-.pedido-main h2 {
-    font-size: 7rem;
-    margin-bottom: 1rem;
-}
-
-.pedido-main p {
-    font-size: 2rem;
-}
 
 
 
